@@ -1,0 +1,79 @@
+{
+    "editor.renderControlCharacters": true,
+    "window.menuBarVisibility": "default",
+    "debug.allowBreakpointsEverywhere": true,
+    "window.zoomLevel": 0,
+    "problems.decorations.enabled": true,
+    "workbench.editor.showTabs": true,
+    "telemetry.enableTelemetry": false,
+    "zenMode.centerLayout": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.titleBarStyle": "custom",
+    "git.enableSmartCommit": true,
+    "rust-client.updateOnStartup": true,
+    "rust.wait_to_build": 500,
+    "editor.minimap.maxColumn": 30,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": true,
+    "terminal.integrated.windowsEnableConpty": true,
+    "zenMode.hideLineNumbers": false,
+    "lldb.adapterType": "bundled",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.definition.comment",
+                        "comment.block",
+                        "comment.line",
+                        "comment.block.documentation"
+                    ],
+                    "settings": {
+                        "foreground": "#717c96"
+                    },
+                },
+                {
+                    "scope": [
+                        "Keyword",
+                        "Storage",
+                        "comment",
+                        "keyword.control",
+                        "variable.language",
+                        "entity.name.method.js"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        },
+    },
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#f1f1f1",
+        "activityBarBadge.background": "#FF7042",
+        "list.activeSelectionForeground": "#FF7042",
+        "list.inactiveSelectionForeground": "#FF7042",
+        "list.highlightForeground": "#FF7042",
+        "scrollbarSlider.activeBackground": "#FF704250",
+        "editorSuggestWidget.highlightForeground": "#FF7042",
+        "textLink.foreground": "#FF7042",
+        "progressBar.background": "#FF7042",
+        "pickerGroup.foreground": "#FF7042",
+        "tab.activeBorder": "#FF7042",
+        "notificationLink.foreground": "#FF7042",
+        "editorWidget.resizeBorder": "#FF7042",
+        "editorWidget.border": "#FF7042",
+        "settings.modifiedItemIndicator": "#FF7042",
+        "settings.headerForeground": "#FF7042",
+        "panelTitle.activeBorder": "#FF7042",
+        "breadcrumb.activeSelectionForeground": "#FF7042",
+        "menu.selectionForeground": "#FF7042",
+        "menubar.selectionForeground": "#FF7042",
+        "statusBar.background": "#151515",
+        "statusBar.debuggingBackground": "#dd5224"
+    },
+    "materialTheme.accent": "Orange",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "breadcrumbs.enabled": false
+}
