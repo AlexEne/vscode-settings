@@ -5,22 +5,22 @@
     "window.zoomLevel": 0,
     "problems.decorations.enabled": true,
     "workbench.editor.showTabs": true,
-    "telemetry.enableTelemetry": false,
+    //"telemetry.enableTelemetry": false,
     "zenMode.centerLayout": false,
     "workbench.iconTheme": "material-icon-theme",
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
+    "editor.trimAutoWhitespace": false,
     "rust-client.updateOnStartup": true,
     "rust.wait_to_build": 500,
-    "editor.minimap.maxColumn": 30,
     "editor.minimap.showSlider": "always",
     "editor.minimap.enabled": true,
     "terminal.integrated.windowsEnableConpty": true,
     "zenMode.hideLineNumbers": false,
     "lldb.adapterType": "bundled",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "editor.tokenColorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
+        "[Community Material Theme Darker High Contrast]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -30,7 +30,7 @@
                         "comment.block.documentation"
                     ],
                     "settings": {
-                        "foreground": "#717c96"
+                        "foreground": "#939cad"
                     },
                 },
                 {
@@ -71,9 +71,17 @@
         "menu.selectionForeground": "#FF7042",
         "menubar.selectionForeground": "#FF7042",
         "statusBar.background": "#151515",
-        "statusBar.debuggingBackground": "#dd5224"
+        "statusBar.debuggingBackground": "#dd5224",
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1" //Other SEARCH MATCHES
     },
     "materialTheme.accent": "Orange",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "breadcrumbs.enabled": false
+    "rust-analyzer.enableCargoWatchOnStartup": "enabled",
+    "rust-analyzer.displayInlayHints": false,
+    "editor.autoClosingOvertype": "always",
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "files.autoSave": "onFocusChange",
+    "glsllint.glslangValidatorPath": "${workspaceFolder}/tools/glslangValidator.exe",
+    "editor.minimap.maxColumn": 30
 }
