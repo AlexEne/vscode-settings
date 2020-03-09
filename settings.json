@@ -72,8 +72,9 @@
         "menubar.selectionForeground": "#FF7042",
         "statusBar.background": "#151515",
         "statusBar.debuggingBackground": "#dd5224",
-        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
-        "editor.findMatchHighlightBackground": "#ff7b00a1" //Other SEARCH MATCHES
+        "editor.findMatchBackground": "#00cc444b", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b0034", //Other SEARCH MATCHES
+        "minimap.background": "#21212155"
     },
     "materialTheme.accent": "Orange",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -83,5 +84,10 @@
     "terminal.integrated.rendererType": "experimentalWebgl",
     "files.autoSave": "onFocusChange",
     "glsllint.glslangValidatorPath": "${workspaceFolder}/tools/glslangValidator.exe",
-    "editor.minimap.maxColumn": 30
+    "editor.minimap.maxColumn": 35,
+    "cSpell.userWords": [
+        "hardcode",
+        "pathfinding",
+        "tracepoint"
+    ]
 }
