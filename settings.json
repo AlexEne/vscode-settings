@@ -5,32 +5,28 @@
     "window.zoomLevel": 0,
     "problems.decorations.enabled": true,
     "workbench.editor.showTabs": true,
-    "telemetry.enableTelemetry": false,
+    //"telemetry.enableTelemetry": false,
     "zenMode.centerLayout": false,
     "workbench.iconTheme": "material-icon-theme",
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
     "editor.trimAutoWhitespace": false,
-    "rust-client.updateOnStartup": true,
-    "rust.wait_to_build": 500,
     "editor.minimap.showSlider": "always",
-    "editor.minimap.enabled": true,
     "terminal.integrated.windowsEnableConpty": true,
     "zenMode.hideLineNumbers": false,
-    "lldb.adapterType": "bundled",
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "editor.tokenColorCustomizations": {
-        "[Community Material Theme Darker High Contrast]": {
+        "[Material Theme Darker High Contrast]": {
             "textMateRules": [
                 {
                     "scope": [
                         "punctuation.definition.comment",
                         "comment.block",
                         "comment.line",
-                        "comment.block.documentation"
+                        "comment.block.documentation",
+                        "comment"
                     ],
                     "settings": {
-                        "foreground": "#939cad"
+                        "foreground": "#9ca3af"
                     },
                 },
                 {
@@ -45,13 +41,71 @@
                     "settings": {
                         "fontStyle": ""
                     }
-                }
+                },
             ]
         },
     },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "rules": {
+                "operator.unsafe": "#f00",
+                "function.unsafe": "#f00"
+            }
+        }
+    },
+    "materialTheme.accent": "Orange",
+    "editor.autoClosingOvertype": "always",
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "files.autoSave": "onFocusChange",
+    "glsllint.glslangValidatorPath": "L:\\__Projects__\\Rust\\dwarf_game\\tools\\glslangValidator.exe",
+    "cSpell.userWords": [
+        "Backtrace",
+        "bodypart",
+        "combatlog",
+        "consts",
+        "craftingtask",
+        "createitemtask",
+        "ddpi",
+        "deviceobjectsui",
+        "egui",
+        "emgui",
+        "entityholder",
+        "get",
+        "get integerv",
+        "hardcode",
+        "hasher",
+        "hawktracer",
+        "integerv",
+        "joltage",
+        "memoffset",
+        "openglstate",
+        "parameteri",
+        "pathfinding",
+        "perlin",
+        "pixel",
+        "pixel storei",
+        "renderable",
+        "repr",
+        "reqwest",
+        "rgba",
+        "rgba unorm srgb",
+        "rust",
+        "scancode",
+        "srgb",
+        "srgba",
+        "storei",
+        "tex",
+        "tex parameteri",
+        "tracepoint",
+        "traffico",
+        "unorm",
+        "wgpu"
+    ],
+    "editor.renderWhitespace": "none",
     "workbench.colorCustomizations": {
-        "editor.foreground": "#f1f1f1",
         "activityBarBadge.background": "#FF7042",
+        "activityBar.activeBorder": "#FF7042",
         "list.activeSelectionForeground": "#FF7042",
         "list.inactiveSelectionForeground": "#FF7042",
         "list.highlightForeground": "#FF7042",
@@ -70,24 +124,23 @@
         "breadcrumb.activeSelectionForeground": "#FF7042",
         "menu.selectionForeground": "#FF7042",
         "menubar.selectionForeground": "#FF7042",
-        "statusBar.background": "#151515",
-        "statusBar.debuggingBackground": "#dd5224",
-        "editor.findMatchBackground": "#00cc444b", //Current SEARCH MATCH
-        "editor.findMatchHighlightBackground": "#ff7b0034", //Other SEARCH MATCHES
-        "minimap.background": "#21212155"
+        "editor.findMatchBorder": "#FF7042",
+        "selection.background": "#FF704240",
+        "minimapSlider.background": "#75747470",
+        "minimapSlider.activeBackground": "#75747480",
+        "minimapSlider.hoverBackground": "#75747480"
     },
-    "materialTheme.accent": "Orange",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "rust-analyzer.enableCargoWatchOnStartup": "enabled",
-    "rust-analyzer.displayInlayHints": false,
-    "editor.autoClosingOvertype": "always",
-    "terminal.integrated.rendererType": "experimentalWebgl",
-    "files.autoSave": "onFocusChange",
-    "glsllint.glslangValidatorPath": "${workspaceFolder}/tools/glslangValidator.exe",
-    "editor.minimap.maxColumn": 35,
-    "cSpell.userWords": [
-        "hardcode",
-        "pathfinding",
-        "tracepoint"
-    ]
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "git.autofetch": true,
+    "python.showStartPage": false,
+    "editor.minimap.maxColumn": 80,
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
+    ],
+    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+    "rust-analyzer.inlayHints.typeHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
 }
