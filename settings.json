@@ -5,7 +5,7 @@
     "window.zoomLevel": 0,
     "problems.decorations.enabled": true,
     "workbench.editor.showTabs": true,
-    //"telemetry.enableTelemetry": false,
+    "telemetry.enableTelemetry": false,
     "zenMode.centerLayout": false,
     "workbench.iconTheme": "material-icon-theme",
     "window.titleBarStyle": "custom",
