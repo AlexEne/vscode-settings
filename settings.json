@@ -73,6 +73,7 @@
         "entityholder",
         "get",
         "get integerv",
+        "halloumi",
         "hardcode",
         "hasher",
         "hawktracer",
@@ -143,4 +144,5 @@
     "rust-analyzer.cargo.loadOutDirsFromCheck": true,
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
+    "editor.minimap.enabled": false,
 }
