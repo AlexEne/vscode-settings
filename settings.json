@@ -113,7 +113,8 @@
             "menubar.selectionForeground": "#FF7042",
             "editor.findMatchBorder": "#FF7042",
             "selection.background": "#FF704240",
-            "statusBarItem.remoteBackground": "#FF7042"
+            "statusBarItem.remoteBackground": "#FF7042",
+            "editor.background": "#1a1a1a"
         },
         "[Ayu Dark Bordered]": {
             "foreground": "#9199aa",
