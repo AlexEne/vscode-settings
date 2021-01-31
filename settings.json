@@ -70,6 +70,22 @@
                     "settings": {
                         "fontStyle": ""
                     }
+                },
+                {
+                    "scope": [
+                        "variable.other"
+                    ],
+                    "settings": {
+                        "foreground": "#c2c2bd",
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.enummember"
+                    ],
+                    "settings": {
+                        "foreground": "#ffb454",
+                    }
                 }
             ]
         }
