@@ -35,13 +35,38 @@
                         "Storage",
                         "comment",
                         "keyword.control",
-                        "variable.language",
-                        "entity.name.method.js"
+                        "entity.name.method.js",
+                        "variable.other"
                     ],
                     "settings": {
                         "fontStyle": ""
                     }
                 },
+                {
+                    "scope": [
+                        "variable.parameter"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword"
+                    ],
+                    "settings": {
+                        "foreground": "#C2C2BD",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other"
+                    ],
+                    "settings": {
+                        "foreground": "#cccbcb",
+                    }
+                }
             ]
         },
         "[Ayu Dark Bordered]": {
@@ -63,7 +88,6 @@
                     "scope": [
                         "Keyword",
                         "Storage",
-                        "comment",
                         "keyword.control",
                         "variable.language",
                     ],
@@ -76,7 +100,7 @@
                         "variable.other"
                     ],
                     "settings": {
-                        "foreground": "#c2c2bd",
+                        "foreground": "#afafaa",
                     }
                 },
                 {
@@ -95,43 +119,30 @@
         "[Material Theme Darker High Contrast]": {
             "rules": {
                 "operator.unsafe": "#f00",
+                "function.unsafe": "#f00",
+                "*.mutable": {
+                    "fontStyle": ""
+                },
+                "parameter": {
+                    "fontStyle": "bold",
+                    "foreground": "#f0e4a7"
+                }
+            }
+        },
+        "[Ayu Dark Bordered]": {
+            "rules": {
+                "operator.unsafe": "#f00",
                 "function.unsafe": "#f00"
             }
         }
     },
-    "materialTheme.accent": "Orange",
     "editor.autoClosingOvertype": "always",
     "terminal.integrated.rendererType": "experimentalWebgl",
     "files.autoSave": "onFocusChange",
-    "glsllint.glslangValidatorPath": "L:\\__Projects__\\Rust\\dwarf_game\\tools\\glslangValidator.exe",
+    "glsllint.glslangValidatorPath": "G:\\Rust\\dwarf_game\\tools\\glslangValidator.exe",
     "editor.renderWhitespace": "none",
     "workbench.colorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
-            "activityBarBadge.background": "#FF7042",
-            "activityBar.activeBorder": "#FF7042",
-            "list.activeSelectionForeground": "#FF7042",
-            "list.inactiveSelectionForeground": "#FF7042",
-            "list.highlightForeground": "#FF7042",
-            "scrollbarSlider.activeBackground": "#FF704250",
-            "editorSuggestWidget.highlightForeground": "#FF7042",
-            "textLink.foreground": "#FF7042",
-            "progressBar.background": "#FF7042",
-            "pickerGroup.foreground": "#FF7042",
-            "tab.activeBorder": "#FF7042",
-            "notificationLink.foreground": "#FF7042",
-            "editorWidget.resizeBorder": "#FF7042",
-            "editorWidget.border": "#FF7042",
-            "settings.modifiedItemIndicator": "#FF7042",
-            "settings.headerForeground": "#FF7042",
-            "panelTitle.activeBorder": "#FF7042",
-            "breadcrumb.activeSelectionForeground": "#FF7042",
-            "menu.selectionForeground": "#FF7042",
-            "menubar.selectionForeground": "#FF7042",
-            "editor.findMatchBorder": "#FF7042",
-            "selection.background": "#FF704240",
-            "statusBarItem.remoteBackground": "#FF7042",
-            "editor.background": "#1a1a1a"
-        },
+        "[Material Theme Darker High Contrast]": {},
         "[Ayu Dark Bordered]": {
             "foreground": "#9199aa",
             "tab.inactiveForeground": "#92959b",
@@ -144,21 +155,20 @@
             "menu.foreground": "#a7a4a4",
             "panelTitle.inactiveForeground": "#b9b9b9",
             "editorIndentGuide.activeBackground": "#353535",
-            "editorIndentGuide.background": "#1b1b1b"
+            "editorIndentGuide.background": "#1b1b1b",
+            "editor.background": "#141414",
+            "editor.lineHighlightBackground": "#0f0f0f"
         }
     },
     "workbench.colorTheme": "Ayu Dark Bordered",
     "git.autofetch": true,
     "python.showStartPage": false,
-    "editor.minimap.maxColumn": 80,
+    "editor.minimap.maxColumn": 70,
     "cmake.configureOnOpen": false,
-    "terminal.integrated.shell.windows": "cmd.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/K",
-        "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
-    ],
+    "terminal.integrated.shell.windows": "powershell.exe",
     "rust-analyzer.cargo.loadOutDirsFromCheck": true,
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
+    // "workbench.editor.tabSizing": "shrink"
 }
