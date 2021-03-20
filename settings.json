@@ -124,7 +124,7 @@
                 },
                 "parameter": {
                     "fontStyle": "bold",
-                    "foreground": "#C77FA1"
+                    "foreground": "#C792EA"
                 }
             }
         },
@@ -141,7 +141,31 @@
     "glsllint.glslangValidatorPath": "G:\\Rust\\dwarf_game\\tools\\glslangValidator.exe",
     "editor.renderWhitespace": "none",
     "workbench.colorCustomizations": {
-        "[Material Theme Darker High Contrast]": {},
+        "[Material Theme Darker High Contrast]": {
+            "activityBarBadge.background": "#FF7042",
+            "activityBar.activeBorder": "#FF7042",
+            "list.activeSelectionForeground": "#FF7042",
+            "list.inactiveSelectionForeground": "#FF7042",
+            "list.highlightForeground": "#FF7042",
+            "scrollbarSlider.activeBackground": "#FF704250",
+            "editorSuggestWidget.highlightForeground": "#FF7042",
+            "textLink.foreground": "#FF7042",
+            "progressBar.background": "#FF7042",
+            "pickerGroup.foreground": "#FF7042",
+            "tab.activeBorder": "#FF7042",
+            "notificationLink.foreground": "#FF7042",
+            "editorWidget.resizeBorder": "#FF7042",
+            "editorWidget.border": "#FF7042",
+            "settings.modifiedItemIndicator": "#FF7042",
+            "settings.headerForeground": "#FF7042",
+            "panelTitle.activeBorder": "#FF7042",
+            "breadcrumb.activeSelectionForeground": "#FF7042",
+            "menu.selectionForeground": "#FF7042",
+            "menubar.selectionForeground": "#FF7042",
+            "editor.findMatchBorder": "#FF7042",
+            "selection.background": "#FF704240",
+            "statusBarItem.remoteBackground": "#FF7042"
+        },
         "[Ayu Dark Bordered]": {
             "foreground": "#9199aa",
             "tab.inactiveForeground": "#92959b",
@@ -169,7 +193,7 @@
             "titleBar.activeBackground": "#161618",
             "editorGutter.background": "#161618",
             "dropdown.background": "#161618",
-            "tab.unfocusedInactiveBackground": "#161618",
+            "tab.unfocusedInactiveBackground": "#161618"
         }
     },
     "workbench.colorTheme": "Material Theme Darker High Contrast",
@@ -182,5 +206,6 @@
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
     "editor.minimap.enabled": true,
+    "materialTheme.accent": "Orange",
     // "workbench.editor.tabSizing": "shrink"
 }
