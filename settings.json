@@ -63,7 +63,7 @@
                         "variable.other"
                     ],
                     "settings": {
-                        "foreground": "#cccbcb",
+                        "foreground": "#e2e2e1",
                     }
                 }
             ]
@@ -124,7 +124,7 @@
                 },
                 "parameter": {
                     "fontStyle": "bold",
-                    "foreground": "#f0e4a7"
+                    "foreground": "#C77FA1"
                 }
             }
         },
@@ -172,7 +172,7 @@
             "tab.unfocusedInactiveBackground": "#161618",
         }
     },
-    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "git.autofetch": true,
     "python.showStartPage": false,
     "editor.minimap.maxColumn": 70,
