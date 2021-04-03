@@ -1,6 +1,5 @@
 {
     "editor.renderControlCharacters": true,
-    "window.menuBarVisibility": "default",
     "debug.allowBreakpointsEverywhere": true,
     "problems.decorations.enabled": true,
     "workbench.editor.showTabs": true,
@@ -55,7 +54,7 @@
                     ],
                     "settings": {
                         "foreground": "#C2C2BD",
-                        "fontStyle": "bold"
+                        // "fontStyle": "bold"
                     }
                 },
                 {
@@ -63,7 +62,7 @@
                         "variable.other"
                     ],
                     "settings": {
-                        "foreground": "#e2e2e1",
+                        // "foreground": "#e2e2e1",
                     }
                 }
             ]
@@ -111,6 +110,51 @@
                     }
                 }
             ]
+        },
+        "[Popping and Locking]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.definition.comment",
+                        "comment.block",
+                        "comment.line",
+                        "comment.block.documentation",
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#9ca3af"
+                    },
+                },
+                {
+                    "scope": [
+                        "Keyword",
+                        "Storage",
+                        "comment",
+                        "keyword.control",
+                        "entity.name.method.js",
+                        "variable.other"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other"
+                    ],
+                    "settings": {
+                        // "foreground": "#e2e2e1",
+                    }
+                }
+            ]
         }
     },
     "editor.semanticHighlighting.enabled": true,
@@ -133,7 +177,20 @@
                 "operator.unsafe": "#f00",
                 "function.unsafe": "#f00"
             }
-        }
+        },
+        "[Popping and Locking]": {
+            "rules": {
+                "operator.unsafe": "#f00",
+                "function.unsafe": "#f00",
+                "*.mutable": {
+                    "fontStyle": ""
+                },
+                "parameter": {
+                    "fontStyle": "bold",
+                    "foreground": "#A989D2"
+                }
+            }
+        },
     },
     "editor.autoClosingOvertype": "always",
     "terminal.integrated.rendererType": "experimentalWebgl",
@@ -194,9 +251,14 @@
             "editorGutter.background": "#161618",
             "dropdown.background": "#161618",
             "tab.unfocusedInactiveBackground": "#161618"
-        }
+        },
+        "[Popping and Locking]": {
+            "editor.selectionBackground": "#414040",
+            "editor.selectionHighlightBackground": "#414040",
+            "editor.inactiveSelectionBackground": "#414040"
+        },
     },
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Popping and Locking",
     "git.autofetch": true,
     "python.showStartPage": false,
     "editor.minimap.maxColumn": 70,
@@ -205,7 +267,7 @@
     "rust-analyzer.cargo.loadOutDirsFromCheck": true,
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "materialTheme.accent": "Orange",
     // "workbench.editor.tabSizing": "shrink"
 }
