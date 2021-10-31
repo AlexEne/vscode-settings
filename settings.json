@@ -255,7 +255,10 @@
         "[Popping and Locking]": {
             "editor.selectionBackground": "#414040",
             "editor.selectionHighlightBackground": "#414040",
-            "editor.inactiveSelectionBackground": "#414040"
+            "editor.inactiveSelectionBackground": "#414040",
+            "minimap.background": "#00000000",
+            "minimap.foregroundOpacity": "#000000b0",
+            "scrollbar.shadow": "#000000
         },
     },
     "workbench.colorTheme": "Popping and Locking",
