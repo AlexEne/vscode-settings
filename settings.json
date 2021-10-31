@@ -264,7 +264,7 @@
             "editorBracketHighlight.foreground3": "#45858870",
             "editorBracketHighlight.foreground4": "#689d6a70",
             "editorBracketHighlight.foreground5": "#98971a70",
-            "editorBracketHighlight.foreground6": "#d7992170",
+            "editorBracketHighlight.foreground6": "#d7992170"
         },
     },
     "workbench.colorTheme": "Popping and Locking",
@@ -277,6 +277,6 @@
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
     "editor.minimap.enabled": false,
-    "materialTheme.accent": "Orange",
+    "materialTheme.accent": "Orange"
     // "workbench.editor.tabSizing": "shrink"
 }
