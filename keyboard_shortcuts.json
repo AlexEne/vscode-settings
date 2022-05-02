@@ -61,5 +61,34 @@
         "key": "ctrl+alt+l",
         "command": "-bookmarks.jumpToNext",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "Enter",
+        "command": "rust-analyzer.onEnter",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
+    },
+    {
+        "key": "alt+pagedown", // or whatever binding you choose
+        "command": "cursorMove",
+        "args": {
+            "to": "viewPortCenter"
+        }
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "-scrollPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+pageup", // or whatever binding you choose
+        "command": "cursorMove",
+        "args": {
+            "to": "viewPortCenter"
+        }
+    },
+    {
+        "key": "alt+pageup",
+        "command": "-scrollPageup",
+        "when": "textInputFocus"
     }
 ]
