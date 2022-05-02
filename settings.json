@@ -4,7 +4,7 @@
     "problems.decorations.enabled": true,
     "workbench.editor.showTabs": true,
     "telemetry.enableTelemetry": false,
-    "zenMode.centerLayout": false,
+    "zenMode.centerLayout": true,
     "workbench.iconTheme": "material-icon-theme",
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
@@ -12,6 +12,7 @@
     "editor.minimap.showSlider": "always",
     "terminal.integrated.windowsEnableConpty": true,
     "zenMode.hideLineNumbers": false,
+    "editor.smoothScrolling": true,
     "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
             "textMateRules": [
@@ -273,10 +274,13 @@
     "editor.minimap.maxColumn": 70,
     "cmake.configureOnOpen": false,
     "terminal.integrated.shell.windows": "powershell.exe",
-    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+    "editor.guides.bracketPairs": true,
+    // "editor.bracketPairColorization.enabled": true,
     "rust-analyzer.inlayHints.typeHints": false,
     "rust-analyzer.inlayHints.parameterHints": false,
-    "editor.minimap.enabled": false,
-    "materialTheme.accent": "Orange"
+    "materialTheme.accent": "Orange",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "debug.disassemblyView.showSourceCode": false,
+    "rust-analyzer.inlayHints.chainingHints": false,
     // "workbench.editor.tabSizing": "shrink"
 }
