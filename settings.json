@@ -269,15 +269,19 @@
     "materialTheme.accent": "Orange",
     "diffEditor.ignoreTrimWhitespace": false,
     "debug.disassemblyView.showSourceCode": false,
-    "editor.minimap.enabled": false,
     // "workbench.editor.tabSizing": "shrink"
     "vim.easymotion": true,
     "vim.useCtrlKeys": false,
-    "editor.cursorSurroundingLines": 10,
+    "editor.cursorSurroundingLines": 6,
     "rust-analyzer.inlayHints.chainingHints.enable": true,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "remote.containers.dockerPath": "podman.exe",
     "docker.dockerPath": "podman",
-    "remote.containers.cacheVolume": false
+    "remote.containers.cacheVolume": false,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.shellIntegration.enabled": true
+    "vim.handleKeys": {
+        "<C-d>": false
+    }
 }
