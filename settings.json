@@ -55,7 +55,7 @@
                     ],
                     "settings": {
                         "foreground": "#C2C2BD",
-                        "fontStyle": "bold"
+                        "fontStyle": ""
                     }
                 },
                 {
@@ -144,7 +144,7 @@
                         "variable.parameter"
                     ],
                     "settings": {
-                        //"fontStyle": "bold"
+                        "fontStyle": ""
                     }
                 },
                 {
@@ -285,7 +285,8 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "git.confirmSync": false,
-    "editor.fontFamily": "Monaspace Neon, Consolas, 'Courier New', monospace",
-    "editor.fontWeight": "300",
+    "editor.fontFamily": "'Monaspace Neon', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "200",
     "editor.fontSize": 14,
 }
