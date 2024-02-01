@@ -1,10 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "f7",
-        "command": "workbench.action.tasks.build"
-    },
-    {
         "key": "ctrl+shift+b",
         "command": "-workbench.action.tasks.build"
     },
@@ -13,16 +9,8 @@
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
-        "key": "ctrl+b",
+        "key": "cmd+r",
         "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.openRecent"
     },
     {
         "key": "ctrl+e",
@@ -43,7 +31,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+f2",
+        "key": "cmd+f2",
         "command": "bookmarks.toggle",
         "when": "editorTextFocus"
     },
@@ -68,27 +56,27 @@
         "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
     },
     {
-        "key": "alt+pagedown", // or whatever binding you choose
-        "command": "cursorMove",
-        "args": {
-            "to": "viewPortCenter"
-        }
+        "key": "cmd+f2",
+        "command": "-editor.action.changeAll",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+pagedown",
-        "command": "-scrollPageDown",
-        "when": "textInputFocus"
+        "key": "f7",
+        "command": "debug.jumpToCursor",
+        "when": "editorTextFocus"
     },
     {
-        "key": "alt+pageup", // or whatever binding you choose
-        "command": "cursorMove",
-        "args": {
-            "to": "viewPortCenter"
-        }
+        "key": "f7",
+        "command": "-editor.action.wordHighlight.next",
+        "when": "editorTextFocus && hasWordHighlights"
     },
     {
-        "key": "alt+pageup",
-        "command": "-scrollPageup",
-        "when": "textInputFocus"
+        "key": "shift+cmd+f5",
+        "command": "-workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+cmd+f5",
+        "command": "editor.debug.action.runToCursor"
     }
 ]
