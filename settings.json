@@ -261,7 +261,7 @@
             "scrollbar.shadow": "#0000002a"
         }
     },
-    "workbench.colorTheme": "Popping and Locking",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "git.autofetch": true,
     "editor.minimap.maxColumn": 70,
     "cmake.configureOnOpen": false,
@@ -305,12 +305,9 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.lineNumbers": "relative",
     "vim.easymotion": true,
-    "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -322,7 +319,115 @@
             ]
         }
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<BS>"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<Tab>"
+            ],
+            "after": [
+                "<S>",
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<S-Tab>",
+            ],
+            "after": [
+                "<S>",
+                "<",
+                "g",
+                "v"
+            ]
+        }
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "D"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<BS>"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        },
         {
             "before": [
                 "<leader>",
