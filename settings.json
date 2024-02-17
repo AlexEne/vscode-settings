@@ -397,5 +397,11 @@
     },
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
-    }
+    },
+        "extensions.experimental.affinity": {
+        "vscodevim.vim": 1,
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.scrollback": 10000
 }
