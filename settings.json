@@ -283,7 +283,7 @@
     },
     "git.confirmSync": false,
     "editor.fontFamily": "'Monaspace Neon'",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": "'calt'",
     "editor.fontWeight": "normal",
     "editor.fontSize": 14,
     "arduino.useArduinoCli": true,
