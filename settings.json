@@ -5,7 +5,7 @@
     "workbench.editor.showTabs": "multiple",
     "telemetry.telemetryLevel": "off",
     "zenMode.centerLayout": true,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "catppuccin-mocha",
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
     "editor.trimAutoWhitespace": false,
@@ -96,13 +96,6 @@
             "rules": {
                 "operator.unsafe": "#f00",
                 "function.unsafe": "#f00",
-                "*.mutable": {
-                    "fontStyle": ""
-                },
-                "parameter": {
-                    "fontStyle": "",
-                    "foreground": "#A989D2"
-                }
             }
         }
     },
