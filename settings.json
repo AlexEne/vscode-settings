@@ -111,6 +111,11 @@
             "minimap.background": "#00000000",
             "minimap.foregroundOpacity": "#000000b0",
             "scrollbar.shadow": "#0000002a"
+        },
+        "[Catppuccin Mocha]": {
+            "debugIcon.breakpointForeground": "#ff0000",
+            "editor.stackFrameHighlightBackground": "#ff00003F",
+            "editor.focusedStackFrameHighlightBackground": "#ff00003F"
         }
     },
     "git.autofetch": true,
