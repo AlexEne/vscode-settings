@@ -13,8 +13,9 @@
     "terminal.integrated.windowsEnableConpty": true,
     "zenMode.hideLineNumbers": false,
     "editor.smoothScrolling": true,
+    // "rust-analyzer.cargo.targetDir": "target-rust-analzyer",
     "editor.tokenColorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
+        "[Catppuccin Mocha]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -26,88 +27,6 @@
                     ],
                     "settings": {
                         "foreground": "#9ca3af"
-                    }
-                },
-                {
-                    "scope": [
-                        "Keyword",
-                        "Storage",
-                        "comment",
-                        "keyword.control",
-                        "entity.name.method.js",
-                        "variable.other"
-                    ],
-                    "settings": {
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "variable.parameter"
-                    ],
-                    "settings": {
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "keyword"
-                    ],
-                    "settings": {
-                        "foreground": "#C2C2BD",
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "variable.other"
-                    ],
-                    "settings": {
-                        // "foreground": "#e2e2e1",
-                    }
-                }
-            ]
-        },
-        "[Ayu Dark Bordered]": {
-            "textMateRules": [
-                {
-                    "scope": [
-                        "punctuation.definition.comment.begin",
-                        "punctuation.definition.comment.end",
-                        "comment.block.documentation",
-                        "comment.block",
-                        "comment.line",
-                        "comment"
-                    ],
-                    "settings": {
-                        "foreground": "#78862e"
-                    }
-                },
-                {
-                    "scope": [
-                        "Keyword",
-                        "Storage",
-                        "keyword.control",
-                        "variable.language"
-                    ],
-                    "settings": {
-                        "fontStyle": ""
-                    }
-                },
-                {
-                    "scope": [
-                        "variable.other"
-                    ],
-                    "settings": {
-                        "foreground": "#afafaa"
-                    }
-                },
-                {
-                    "scope": [
-                        "variable.other.enummember"
-                    ],
-                    "settings": {
-                        "foreground": "#ffb454"
                     }
                 }
             ]
@@ -160,7 +79,7 @@
     },
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
+        "[Popping and Locking]": {
             "rules": {
                 "operator.unsafe": "#f00",
                 "function.unsafe": "#f00",
@@ -169,17 +88,11 @@
                 },
                 "parameter": {
                     "fontStyle": "",
-                    "foreground": "#C792EA"
+                    "foreground": "#A989D2"
                 }
             }
         },
-        "[Ayu Dark Bordered]": {
-            "rules": {
-                "operator.unsafe": "#f00",
-                "function.unsafe": "#f00"
-            }
-        },
-        "[Popping and Locking]": {
+        "[Catppuccin Mocha]": {
             "rules": {
                 "operator.unsafe": "#f00",
                 "function.unsafe": "#f00",
@@ -198,60 +111,6 @@
     "glsllint.glslangValidatorPath": "G:\\Rust\\dwarf_game\\tools\\glslangValidator.exe",
     "editor.renderWhitespace": "none",
     "workbench.colorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
-            "activityBarBadge.background": "#FF7042",
-            "activityBar.activeBorder": "#FF7042",
-            "list.activeSelectionForeground": "#FF7042",
-            "list.inactiveSelectionForeground": "#FF7042",
-            "list.highlightForeground": "#FF7042",
-            "scrollbarSlider.activeBackground": "#FF704250",
-            "editorSuggestWidget.highlightForeground": "#FF7042",
-            "textLink.foreground": "#FF7042",
-            "progressBar.background": "#FF7042",
-            "pickerGroup.foreground": "#FF7042",
-            "tab.activeBorder": "#FF7042",
-            "notificationLink.foreground": "#FF7042",
-            "editorWidget.resizeBorder": "#FF7042",
-            "editorWidget.border": "#FF7042",
-            "settings.modifiedItemIndicator": "#FF7042",
-            "settings.headerForeground": "#FF7042",
-            "panelTitle.activeBorder": "#FF7042",
-            "breadcrumb.activeSelectionForeground": "#FF7042",
-            "menu.selectionForeground": "#FF7042",
-            "menubar.selectionForeground": "#FF7042",
-            "editor.findMatchBorder": "#FF7042",
-            "selection.background": "#FF704240",
-            "statusBarItem.remoteBackground": "#FF7042"
-        },
-        "[Ayu Dark Bordered]": {
-            "foreground": "#9199aa",
-            "tab.inactiveForeground": "#92959b",
-            "tab.unfocusedInactiveForeground": "#8c919b",
-            "sideBar.foreground": "#a3a3a3",
-            "list.hoverForeground": "#cecbcb",
-            "list.focusForeground": "#d8d6d6",
-            "list.activeSelectionForeground": "#cecbcb",
-            "list.inactiveSelectionForeground": "#cecbcb",
-            "menu.foreground": "#a7a4a4",
-            "panelTitle.inactiveForeground": "#b9b9b9",
-            "editorIndentGuide.activeBackground": "#353535",
-            "editorIndentGuide.background": "#1b1b1b",
-            "editor.background": "#161618",
-            "editor.lineHighlightBackground": "#0f0f0f",
-            "sideBar.background": "#161618",
-            "terminal.background": "#161618",
-            "panel.background": "#161618",
-            "activityBar.background": "#161618",
-            "statusBar.background": "#161618",
-            "tab.activeBackground": "#161618",
-            "tab.inactiveBackground": "#161618",
-            "tab.unfocusedHoverBackground": "#161618",
-            "menu.background": "#161618",
-            "titleBar.activeBackground": "#161618",
-            "editorGutter.background": "#161618",
-            "dropdown.background": "#161618",
-            "tab.unfocusedInactiveBackground": "#161618"
-        },
         "[Popping and Locking]": {
             "editor.selectionBackground": "#414040",
             "editor.selectionHighlightBackground": "#414040",
@@ -261,7 +120,6 @@
             "scrollbar.shadow": "#0000002a"
         }
     },
-    "workbench.colorTheme": "Catppuccin Macchiato",
     "git.autofetch": true,
     "editor.minimap.maxColumn": 70,
     "cmake.configureOnOpen": false,
@@ -283,28 +141,10 @@
     },
     "git.confirmSync": false,
     "editor.fontFamily": "'Monaspace Neon'",
-    "editor.fontLigatures": "'calt'",
+    "editor.fontLigatures": "'calt', 'liga'",
     "editor.fontWeight": "normal",
     "editor.fontSize": 14,
     "arduino.useArduinoCli": true,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "vim.easymotion": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
@@ -505,5 +345,21 @@
     },
     "editor.cursorSmoothCaretAnimation": "on",
     "terminal.integrated.smoothScrolling": true,
-    "terminal.integrated.scrollback": 10000
+    "terminal.integrated.scrollback": 10000,
+    "debug.onTaskErrors": "abort",
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "lldb.suppressUpdateNotifications": true,
+    "amazonQ.telemetry": false,
+    "amazonQ.shareContentWithAWS": false,
+    "amazonQ.workspaceIndex": true,
+    "amazonQ.workspaceIndexUseGPU": true,
+    "catppuccin.italicKeywords": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.italicComments": false,
+    "catppuccin.boldKeywords": false
 }
