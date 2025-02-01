@@ -94,8 +94,8 @@
         },
         "[Catppuccin Mocha]": {
             "rules": {
-                "operator.unsafe": "#f00",
-                "function.unsafe": "#f00",
+                "operator.unsafe": "#ff2f2f",
+                "function.unsafe": "#ff2f2f",
             }
         }
     },
