@@ -13,7 +13,7 @@
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
-        "key": "ctrl+b",
+        "key": "cmd+r",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
