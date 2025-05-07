@@ -128,7 +128,6 @@
     "editor.cursorSurroundingLines": 6,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
-    "terminal.integrated.shellIntegration.enabled": true,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
@@ -356,6 +355,18 @@
     "vim.smartRelativeLine": true,
     "terminal.integrated.gpuAcceleration": "auto",
     "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
-    "editor.minimap.autohide": true,
-    "lldb.launch.terminal": "external"
+    "editor.minimap.autohide": false,
+    "lldb.launch.terminal": "integrated",
+    "amazonQ.suppressPrompts": {
+        "amazonQChatDisclaimer": true
+    },
+    "rust-analyzer.cargo.target": "aarch64-apple-darwin",
+    "rust-analyzer.cargo.targetDir": "target/rust-analyzer-dir",
+    "rust-analyzer.check.features": [
+        "use_ignx_local",
+        "allow_no_js_vm"
+    ],
+    // "lldb.launch.terminal": "external",
+    // "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
 }
