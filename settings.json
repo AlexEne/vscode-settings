@@ -362,10 +362,6 @@
     },
     "rust-analyzer.cargo.target": "aarch64-apple-darwin",
     "rust-analyzer.cargo.targetDir": "target/rust-analyzer-dir",
-    "rust-analyzer.check.features": [
-        "use_ignx_local",
-        "allow_no_js_vm"
-    ],
     // "lldb.launch.terminal": "external",
     // "terminal.integrated.defaultProfile.osx": "zsh"
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
